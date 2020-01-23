@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e60012;
+}
+
+img {
+   width: 100%;
+
+}
+
+.img-container {
+    max-width: 700px;
+    margin: 8rem auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.box {
+    width: 350px;
+    height: 200px;
+    background-color:  	#00c3e3;
+    position: absolute;
+    border: 3px solid black;
+    top: 64%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+}
